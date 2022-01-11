@@ -1,0 +1,10 @@
+spring:
+  security:
+    user:
+      name: user
+      password: 1234
+  datasource:
+    username: home
+    password: 1234
+    url: jdbc:mysql://localhost:3306/market
+
