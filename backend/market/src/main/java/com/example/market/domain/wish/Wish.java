@@ -1,4 +1,4 @@
-package com.example.market.domain.like;
+package com.example.market.domain.wish;
 
 import com.example.market.domain.product.Product;
 import com.example.market.domain.user.User;
@@ -10,10 +10,11 @@ import javax.persistence.*;
 @Entity
 @Getter
 @RequiredArgsConstructor
-public class Like {
+public class Wish {
 
     @Id
     @GeneratedValue
+    @Column(name = "wish_id")
     private long id;
 
     @ManyToOne
