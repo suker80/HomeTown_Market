@@ -417,7 +417,7 @@
     "/join" : {
       "post" : {
         "tags" : [ "user-controller" ],
-        "summary" : "loign",
+        "summary" : "로그인",
         "operationId" : "loignUsingPOST",
         "consumes" : [ "application/json" ],
         "produces" : [ "*/*" ],
